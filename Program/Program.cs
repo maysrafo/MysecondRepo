@@ -10,6 +10,12 @@ namespace Program
     {
         static void Main(string[] args)
         {
+            var user1 = new User("Rafayel","Maysuryan","AI45684684");
+
+            Console.WriteLine(user1.GetUserInfo());
+            
+
+
         }
     }
 }
